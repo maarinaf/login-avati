@@ -31,11 +31,12 @@ cd login-avati
 - HTML
 - CSS
 - JavaScript
+
 ## Testando o projeto
 
 1. Abra o formulário no navegador
 2. Teste o login com:
-   - Email: deve conter @
+   - Email: deve conter @ e (.) após o @
    - Senha: mínimo 6 caracteres
 3. Observe as mensagens de validação
 
@@ -44,7 +45,7 @@ cd login-avati
 Se quiser fazer alterações:
 
 1. Abra o projeto em um editor de código
-2. Para desenvolvimento ativo, recomendamos usar Live Server:
+2. Para desenvolvimento ativo, recomendo usar Live Server:
    - No VS Code, instale a extensão "Live Server"
    - Clique com botão direito no `index.html`
    - Selecione "Open with Live Server"
@@ -54,3 +55,5 @@ Se quiser fazer alterações:
 - **Imagem não aparece**: Verifique se `logo.jpg` está na pasta `img`
 - **Estilos não carregam**: Confirme se `styles.css` está no mesmo nível do HTML
 - **JavaScript não funciona**: Verifique se `login.js` está referenciado corretamente no HTML
+
+

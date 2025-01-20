@@ -31,11 +31,12 @@ cd login-avati
 - HTML
 - CSS
 - JavaScript
+
 ## Testando o projeto
 
 1. Abra o formulário no navegador
 2. Teste o login com:
-   - Email: deve conter @
+   - Email: deve conter @ e (.) após o @
    - Senha: mínimo 6 caracteres
 3. Observe as mensagens de validação
 
@@ -54,6 +55,7 @@ Se quiser fazer alterações:
 - **Imagem não aparece**: Verifique se `logo.jpg` está na pasta `img`
 - **Estilos não carregam**: Confirme se `styles.css` está no mesmo nível do HTML
 - **JavaScript não funciona**: Verifique se `login.js` está referenciado corretamente no HTML
+- 
 ## Tecnologias utilizadas
 
 - HTML

@@ -17,9 +17,9 @@ document.getElementById('botaoLogin').addEventListener('click', function() {
     // Validação simples
     let temErro = false
     
-    // Verifica se o email está vazio ou não tem @
-    if (!email || !email.includes('@')) {
-        emailError.textContent = 'Por favor, digite um email válido'
+    // Verifica se o email está vazio, tem @ e pelo menos um ponto após o @
+    if (!email || !email.includes('@') || !email.split('@')[1].includes('.')) {
+        emailError.textContent = 'Por favor, digite um email válido (exemplo@dominio.com)'
         emailError.style.display = 'block'
         temErro = true
     }
@@ -40,7 +40,7 @@ document.getElementById('botaoLogin').addEventListener('click', function() {
         document.getElementById('email').value = ''
         document.getElementById('senha').value = ''
     } else {
-        mensagem.textContent = 'Por favor, corrija os dados'
+        mensagem.textContent = 'Por favor, corrija seus dados'
         mensagem.style.color = '#FF9F1C' // Laranja
     }
 }) 

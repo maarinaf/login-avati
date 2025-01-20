@@ -54,8 +54,3 @@ Se quiser fazer alterações:
 - **Imagem não aparece**: Verifique se `logo.jpg` está na pasta `img`
 - **Estilos não carregam**: Confirme se `styles.css` está no mesmo nível do HTML
 - **JavaScript não funciona**: Verifique se `login.js` está referenciado corretamente no HTML
-## Tecnologias utilizadas
-
-- HTML
-- CSS
-- JavaScript

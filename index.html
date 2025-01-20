@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Comunidade Avati </title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.jpg" alt="Logo da Comunidade Avati" class="logo">
+        <h1> Comunidade Avati </h1>
+        <p> Entre com suas credenciais</p>
+    </header>
+    <div class="container">
+        <form>
+            <label for="email">E-mail</label>
+            <input type="text" placeholder="Digite seu e-mail" name="email" id="email" required>
+            <div id="emailError" class="error-message"></div>
+            
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="********" required>
+            <div id="senhaError" class="error-message"></div>
+            
+            <a href="#">Esqueceu sua senha?</a>
+        </form>
+        <button type="button" id="botaoLogin">
+            Entrar
+        </button>
+        <div id="mensagem"></div>
+    </div>
+    <script src="./login.js"></script>
+    </div>
+</body>
+
+</html>

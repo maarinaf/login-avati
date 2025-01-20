@@ -44,7 +44,7 @@ cd login-avati
 Se quiser fazer alterações:
 
 1. Abra o projeto em um editor de código
-2. Para desenvolvimento ativo, recomendamos usar Live Server:
+2. Para desenvolvimento ativo, recomendo usar Live Server:
    - No VS Code, instale a extensão "Live Server"
    - Clique com botão direito no `index.html`
    - Selecione "Open with Live Server"

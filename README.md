@@ -12,7 +12,7 @@ Interface de login com validações básicas desenvolvida para a Comunidade Avat
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/login-avati.git
+git clone https://github.com/maarinaf/login-avati.git
 ```
 2. Entre na pasta do projeto
 ```bash
